@@ -20,7 +20,7 @@ GOOGLE_CAM_LIBRARIES := \
     libvision_face_jni
 
 define define-google-cam-lib
-include $$(CLEAR_VARS)
+include $(CLEAR_VARS)
 LOCAL_MODULE := $1
 LOCAL_MODULE_OWNER := google
 LOCAL_SRC_FILES := lib/arm64/$1.so
